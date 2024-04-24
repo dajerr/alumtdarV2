@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.ttf') format('truetype');
+    /* Puedes agregar más formatos de fuente aquí si tienes diferentes archivos para compatibilidad */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Usando la fuente Poppins como primera opción */
+    overflow-x: hidden;
+}
