@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.ttf') format('truetype');
+    /* Puedes agregar más formatos de fuente aquí si tienes diferentes archivos para compatibilidad */
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 11rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Usando la fuente Poppins como primera opción */
+    overflow-x: hidden;
+    background-color: #e9e9f6;
+}
+
+.headerr {
+    background-image: url(imgs/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+    background-color: rgba(0, 0, 0, 0.4); /* Color de fondo semitransparente para oscurecer */
+    background-blend-mode: multiply; /* Multiplica el fondo con el color para oscurecer */
+    color: white; /* Color de texto blanco para contrarrestar la opacidad */
+}
+
+
+.contactame{
+    background-image: url(imgs/fondo-contactame.jpg);
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+}
